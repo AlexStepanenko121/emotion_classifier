@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Classifier</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='shortcut icon' href='images/text.png'>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">
+            <img src="images/text_white.png" alt="Emotion Icon">
+        </div>
+        <h1>Emotion Classifier</h1>
+        <textarea id="text-input" placeholder="Enter your text here"></textarea>
+        <button onclick="classifyText()">Classify Emotion</button>
+        <div id="spinner" class="spinner" style="display: none;"></div>
+        <div id="result" class="result-box"></div>
+    </div>
+</body>
+</html>
